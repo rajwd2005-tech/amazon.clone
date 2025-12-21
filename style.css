@@ -69,8 +69,8 @@ font-size: 1.5rem;
     margin-left: 0px;
     text-align: center;
 }
-.nav-search.border:hover{
-    2px solid black
+.nav-search:hover{
+    border: 2px solid rgb(192,25,122)
 }
 /** country select **/
 .english{
@@ -106,9 +106,73 @@ font-size: 1.5rem;
 }
 /** hello section **/
 .span{
-    font-size: 12px;
+    font-size: 10px;
 }
 .nav-acc{
     font-size: 1rem;
     font-weight: 700;
+}
+/** cart sectiion **/
+.nav-cart i{
+   font-size: 30px;
+   font-weight: 700;
+}
+/** pannel **/
+
+.pannel{
+    height: 40px;
+    background-color:rgb(22, 90, 83) ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pannel-option p{
+    display: inline;
+    margin-left: 10px;
+}
+.pannel-option{
+    width: 93%;
+    font-size: 1rem;
+}
+/** first background **/
+
+.first-img{
+    background-image: url(first\ image.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.first-message{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 30px;
+     
+}
+.first-message p{
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+/** shop section **/
+.shop-box{
+    display: flex;
+   background-color: rgb(19, 114, 74);
+   justify-content: space-evenly;
+}
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: aliceblue;
+    padding: 20px 0px 15px;
+    
+}
+.box-img{
+    height: 100px;
 }
